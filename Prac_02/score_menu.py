@@ -1,7 +1,8 @@
 """
 CP1404/CP5632 - Practical 02
-Score menu program
- """
+score_menu.py
+Scores menu
+"""
 
 MENU = """G - Get score
 P - Print result
@@ -13,17 +14,17 @@ def main():
     score = ""
     print(MENU)
     choice = input("Choice: ").upper()
-    while choice != 'Q':
-        if choice == 'G':
+    while choice != "Q":
+        if choice == "G":
             score = get_valid_score()
-        elif choice == 'P':
+        elif choice == "P":
             print_grades(score)
-        elif choice == 'S':
+        elif choice == "S":
             print("*" * score)
         else:
             print("Invalid choice")
         print(MENU)
-        choice = input("Choice: ")
+        choice = input("Choice: ").upper()
     print("Farewell")
 
 
