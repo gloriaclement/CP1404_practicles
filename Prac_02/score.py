@@ -1,7 +1,7 @@
 """
 CP1404/CP5632 - Practical 02
-Grade according to score program
- """
+Grade according to score
+"""
 import random
 
 
