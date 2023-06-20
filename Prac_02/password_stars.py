@@ -1,4 +1,7 @@
-""" """
+"""
+CP1404/CP5632 - Practical 02
+Password check program
+"""
 
 
 def main():
