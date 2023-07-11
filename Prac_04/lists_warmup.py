@@ -1,3 +1,7 @@
+"""
+CP1404 Practical
+List warmup
+"""
 numbers = [3, 1, 4, 1, 5, 9, 2]
 # numbers[0] Result is 3
 # numbers[-1] Result is 2
